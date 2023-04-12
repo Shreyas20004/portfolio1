@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    background-color:rgba(19, 59, 153, 0.704);
+}
+.heading{
+    width: 80%;
+    margin-top: 0.5rem;
+    border: 1px solid;
+    left: 0;
+    top: 0;
+    margin: auto;
+    height: 5vh;
+    padding: 10px;
+    /* This is how you comment or ctrl+/
+    */
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    }
+    #About{
+    background-color: aliceblue;
+    border: 2px solid;
+    border-style: double;
+    }
+
+header{
+    border: 1px;
+    /* margin: 10px; */
+    margin-bottom: 50px; 
+    /* margin-top: 10px;   */
+    /* mt10=margintop10,mb10=marginbottom */
+    height: 5rem;
+    text-align: center;
+
+}
+a{
+    border: 1px;
+    /* display: inline-block; */
+}
+.navbar a{
+    font-size: 15px;
+    border: 1px;
+    margin: 0 5px 0 5px;
+}
+
+
+.logo{
+    font-size: 25px;
+}
+.header a{
+ text-decoration: none;
+ font-size: 20px;
+}
+.home{
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}
+.home.home-img img{
+    width:5vw;
+}
+.btn{
+    background-color: #0ef;
+    padding: 1rem 2 rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    color: #1f242d;
+    box-shadow:10 0 2rem #0ef;
+}
+img{
+    border: 2px solid turquoise;
+}
